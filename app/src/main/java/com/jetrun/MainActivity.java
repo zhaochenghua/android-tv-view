@@ -97,7 +97,7 @@ public class MainActivity extends Activity {
             Toast.makeText(getApplicationContext(), "Downloading File", Toast.LENGTH_LONG).show();
         });
         // Replace The Link Here；此处用于链接替换
-        mWebView.loadUrl("https://www.bing.com");
+        mWebView.loadUrl("https://sz.imst.xyz/course-reminder/index.php");
     }
     private static class HelloWebViewClient extends WebViewClient {
         @Override
